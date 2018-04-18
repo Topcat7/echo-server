@@ -82,7 +82,7 @@ def server(log_buffer=sys.stderr):
         #       prevent syntax problems
         print('quitting echo server', file=log_buffer)
         sock.close()
-        sys.exit(0)
+
 
 if __name__ == '__main__':
     server()
